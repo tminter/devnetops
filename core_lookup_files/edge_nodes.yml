@@ -1,0 +1,9 @@
+---
+# vars file for all edge sites defining edge details for 
+# common scripts/utilities
+68:
+   pri_agg_node: "25"
+   alt_agg_node: "7"
+622:
+   pri_agg_node: "25"
+   alt_agg_node: "7
