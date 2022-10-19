@@ -1,0 +1,201 @@
+---
+# vars file for ipsla_deploy
+
+# Node dictionary
+# Esch object # matches the site node number
+# State options:
+#   active - device is currently online and running in full deployed state
+#   inactive - device was deployed but is currently in an inactive state for some reason
+#   predeploy - device is currently being prpeaired for deployment
+#   notdeployed - site has not yet been transitioned to 7.0
+#
+
+1:
+  state: "active"
+  region: "A"
+  site_short_name: "SITEA"
+  nodenumber: "001"
+  nodetype: "core"
+  protonodenum: "001"
+2:
+  state: "active"
+  region: "A"
+  site_short_name: "SITEB"
+  nodenumber: "002"
+  nodetype: "large_edge"
+  protonodenum: "002"
+3:
+  state: "active"
+  region: "A"
+  site_short_name: "SITEC"
+  protonodenum: "003"
+  nodenumber: "003"
+  nodetype: "core"
+4:
+  state: "active"
+  region: "A"
+  site_short_name: "SITED"
+  protonodenum: "004"
+  nodenumber: "004"
+  nodetype: "core"
+5:
+  state: "active"
+  region: "A"
+  site_short_name: "SITED"
+  protonodenum: "005"
+  nodenumber: "005"
+  nodetype: "core"
+6:
+  state: "active"
+  region: "A"
+  site_short_name: "SITEE"
+  protonodenum: "006"
+  nodenumber: "006"
+  nodetype: "micro_core"
+7:
+  state: "active"
+  region: "A"
+  site_short_name: "SITEF"
+  protonodenum: "007"
+  nodenumber: "007"
+  nodetype: "core"
+8:
+  state: "notdeployed"
+  region: "B"
+  site_short_name: "SITEG"
+  protonodenum: "008"
+  nodenumber: "008"
+  nodetype:
+9:
+  state: "inactive"
+  region: "B"
+  site_short_name: "SITEH"
+  protonodenum: "009"
+  nodenumber: "009"
+  nodetype:
+10:
+  state: "predeploy"
+  region: "B"
+  site_short_name: "SITEI"
+  protonodenum: "010"
+  nodenumber: "010"
+  nodetype: "core"
+11:
+  state: "active"
+  region: "B"
+  site_short_name: "SITEJ"
+  protonodenum: "011"
+  nodenumber: "011"
+  nodetype: "core"
+12:
+  state: "active"
+  region: "B"
+  site_short_name: "SITEK"
+  protonodenum: "012"
+  nodenumber: "012"
+  nodetype: "core"
+13:
+  state: "active"
+  region: "B"
+  site_short_name: "SITEL"
+  protonodenum: "013"
+  nodenumber: "013"
+  nodetype: "core"
+10:
+  state: "notdeployed"
+  region: "C"
+  site_short_name: "SITEM"
+  protonodenum: "014"
+  nodenumber: "014"
+  nodetype:
+15:
+  state: "notdeployed"
+  region: "C"
+  site_short_name: "SITEN"
+  protonodenum: "015"
+  nodenumber: "015"
+  nodetype:
+16:
+  state: "notdeployed"
+  region: "C"
+  site_short_name: "SITEO"
+  protonodenum: "016"
+  nodenumber: "016"
+  nodetype:
+17:
+  state: "notdeployed"
+  region: "C"
+  site_short_name: "SITEP"
+  protonodenum: "017"
+  nodenumber: "017"
+  nodetype:
+18:
+  state: "notdeployed"
+  region: "C"
+  site_short_name: "SITEQ"
+  protonodenum: "018"
+  nodenumber: "018"
+  nodetype:
+19:
+  state: "notdeployed"
+  region: "D"
+  site_short_name: "SITER"
+  protonodenum: "019"
+  nodenumber: "019"
+  nodetype:
+20:
+  state: "notdeployed"
+  region: "D"
+  site_short_name: "SITES"
+  protonodenum: "020"
+  nodenumber: "020"
+  nodetype:
+21:
+  state: "notdeployed"
+  region: "D"
+  site_short_name: "SITET"
+  protonodenum: "021"
+  nodenumber: "021"
+  nodetype:
+22:
+  state: "notdeployed"
+  region: "D"
+  site_short_name: "SITEU"
+  protonodenum: "022"
+  nodenumber: "022"
+  nodetype:
+23:
+  state: "notdeployed"
+  region: "E"
+  site_short_name: "SITEV"
+  protonodenum: "023"
+  nodenumber: "023"
+  nodetype:
+24:
+  state: "notdeployed"
+  region: "E"
+  site_short_name: "SITEX"
+  protonodenum: "024"
+  nodenumber: "024"
+  nodetype:
+25:
+  state: "active"
+  region: "E"
+  site_short_name: "SITEY"
+  protonodenum: "025"
+  nodenumber: "25"
+  nodetype: "core"
+68:
+  state: "active"
+  region: "E"
+  site_short_name: "SITEZ"
+  protonodenum: "068"
+  nodenumber: "68"
+  nodetype: "large_edge"
+662:
+  state: "active"
+  region: "E"
+  site_short_name: "SITEAA"
+  protonodenum: "266"
+  nodenumber: "266"
+  nodetype: "large_edge"
